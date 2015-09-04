@@ -36,9 +36,7 @@ from collections import Counter
 def score(dice):
     # You need to write this method
     score = 0
-
     dice_count = Counter(dice)
-    print(dice_count)
 
     for value, count in dice_count.items():
         if count >= 3:
